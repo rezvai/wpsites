@@ -1,0 +1,116 @@
+/*
+Theme Name: Cultural_event[Rabov.A.A]
+Author Name: Artem
+Description: This is custom theme of Cultural shop site for Russian community.
+*/
+
+#menu-main, #menu-main-1 {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    white-space: nowrap;
+    padding-top: 11px;
+    font-size: 14px;
+}
+
+.menu-item {
+    padding: 0 8px;
+}
+
+.container__excursion img {
+    width: 100%;
+    object-fit: cover;
+    float: left;
+    box-sizing: border-box;
+}
+
+.container__excursion {
+    display: flex;
+    width: 230px;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.button__excursion {
+	width: 84%;
+	background-color: rgba(208,207,207,1.00);
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+
+.container__advertise {
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.container__advertise h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.advertises h2 {
+    font-size: 15px;
+    color: black;
+    margin-bottom: 10px;
+    background-color: rgba(208,207,207,1.00);
+}
+
+.advertises {
+    display: flex;
+
+}
+.advertise {
+    margin: 0 10px;
+    border: 1px solid rgba(208,207,207,1.00);
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactform {
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    justify-content: center;
+}
+
+.contactcolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.notfoundpage {
+    margin: 160px auto;
+    align-items: center;
+    color: rgba(208,207,207,1.00);
+}
+
+.copyright {
+    padding-top: 30px;
+}
+
+.product__row-title {
+    text-align: start;
+    padding: 5px 62px;
+    color: black;
+}
+
+.product__row-hr {
+    margin-bottom: 5px;
+    margin-left: 65px;
+}
+
+.map__sidebar {
+    height: 200px;
+    width: 235px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,67 @@
+/*
+Theme Name: Cultural_event[Rabov A.A]
+Description: Тема предназначена для покупки билетов на мероприятия
+Author Name: Rabov A.A
+*/
+
+#menu-main, #menu-main-1 {
+    list-style-type: none;
+    display: flex;
+    white-space: nowrap;
+    padding-left: 180px;
+    padding-top: 10px;
+}
+#menu-main a {
+    padding: 0 10px;
+}
+#menu-main-1 a {
+    padding: 0 10px;    
+}
+.header {
+    display: flex;
+}
+
+.container__excursion img {
+    width: 50px;
+    height: 40px;
+}
+
+.container__excursion {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__excursion input{
+    position: relative;
+	top: -48px;
+	width: 84%;
+	background-color: rgba(208,207,207,1.00);
+	height: 35px;
+	color: rgba(255,255,255,1.00);
+	border-style: none;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+
+.container__ads-main {
+    display: flex;
+    width: 810px;
+    justify-content: space-around;
+}
+
+.container__ads {
+    width: 200px
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright {
+    display: flex;
+    white-space: nowrap;
+    padding-left: 250px;
+    padding-top: 200px;
+}
